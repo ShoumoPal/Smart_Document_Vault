@@ -6,12 +6,12 @@ An AI-powered FastAPI backend that allows users to upload `.pdf` or `.docx` file
 
 ## 🚀 Features
 
-- 🔐 Upload `.pdf` and `.docx` files securely
-- 🧠 AI-powered **text summarization** using BART (HuggingFace)
-- 🏷️ Smart **keyword tagging** via KeyBERT
-- 🗃️ Stores document metadata (summary, filename, tags) in **PostgreSQL**
-- 🔎 Endpoints to **list**, **delete**, and (optionally) **search** documents
-- ✅ Fully local and free — no cloud subscriptions required
+- Upload '.pdf' and '.docx' files securely
+- AI-powered **text summarization** using BART (HuggingFace)
+- Smart **keyword tagging** via KeyBERT
+- Stores document metadata (summary, filename, tags) in **PostgreSQL**
+- Endpoints to **list**, **delete**, and (optionally) **search** documents
+- Fully local and free — no cloud subscriptions required
 
 ---
 
