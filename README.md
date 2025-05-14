@@ -46,3 +46,22 @@ An AI-powered FastAPI backend that allows users to upload `.pdf` or `.docx` file
   "summary": "This document discusses...",
   "tags": ["python", "backend", "architecture"]
 }
+```
+---
+
+## 🛠️How to Run?
+
+### 1. Clone the repo and change directory
+
+```
+git clone https://github.com/ShoumoPal/Smart_Document_Vault.git
+cd smart-document-vault
+```
+### 2. Copy and configure environment variables
+```
+cp .env.template .env
+```
+### 3. Build and run with Docker
+```
+docker-compose up --build
+```
