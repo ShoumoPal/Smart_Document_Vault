@@ -1,11 +1,11 @@
 import os
 from dotenv import load_dotenv
 from fastapi import APIRouter, File, UploadFile, HTTPException, Depends
-from nlp import extract_doc_text, extract_pdf_text, summarize_text, extract_tags
-from crud import add_to_vault, delete_from_vault, get_from_vault
+from app.nlp import extract_doc_text, extract_pdf_text, summarize_text, extract_tags
+from app.crud import add_to_vault, delete_from_vault, get_from_vault
 from sqlalchemy.orm import Session
-from database import SessionLocal
-from models import VaultItem, CreateVaultItem
+from app.database import SessionLocal
+from app.models import VaultItem, CreateVaultItem
 from typing import List
 
 # Load .env values
