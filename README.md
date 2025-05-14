@@ -24,7 +24,7 @@ An AI-powered FastAPI backend that allows users to upload `.pdf` or `.docx` file
 | AI/NLP          | HuggingFace Transformers (`bart-large-cnn`), KeyBERT |
 | File Parsing    | `pdfminer.six`, `python-docx`   |
 | Database        | PostgreSQL + SQLAlchemy         |
-| Deployment-Ready| Uvicorn                         |
+| Deployment-Ready| Uvicorn, Docker                 |
 
 ---
 
