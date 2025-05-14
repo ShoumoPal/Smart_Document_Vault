@@ -65,3 +65,8 @@ cp .env.template .env
 ```
 docker-compose up --build
 ```
+### 4. Use the endpoints on a web browser
+```
+localhost:8000/docs
+Try the CRUD operations using FastAPI
+```
